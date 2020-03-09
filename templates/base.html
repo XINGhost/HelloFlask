@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='icon.jpg') }}">
+    {% block title %}
+    <title>HelloFlask</title>
+    {% endblock %}
+</head>
+<body>
+    {% block context %}
+    <div style="background: red">
+        <p>fdsfsf</p>
+    </div>
+    <div style="background: aqua">
+        <div style="background: antiquewhite">
+            <p>fsdfsf</p>
+        </div>
+        <div style="background: black">
+            <p>fsdfsdf</p>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>

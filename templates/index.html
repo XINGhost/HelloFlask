@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block context %}
+    <ul>
+        <li><a href="{{ url_for('learnhtml') }}">html学习</a></li>
+        <li><a href="{{ url_for('learncss') }}">css学习</a></li>
+        <li><a href="{{ url_for('learnbootstrap') }}">bootstrap学习</a></li>
+        <li><a href="{{ url_for('learnjavascript') }}">javascript学习</a></li>
+
+    </ul>
+{% endblock %}
